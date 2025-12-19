@@ -1,70 +1,24 @@
-\# UI Automation (Cypress)
+# UI Automation
 
-
-
-\## Project
-
+## Repo
 SauceDemo Cypress Portfolio  
-
 https://github.com/yltsmees/saucedemo-cypress-portfolio
 
+## What this demonstrates
+- Cypress UI automation with maintainable structure
+- Feature-based specs (login, inventory, cart, checkout)
+- Page Object Model (POM)
+- Fixtures for test data
+- Custom commands for common flows
 
+## What to review first
+- `cypress/e2e/` (specs grouped by feature)
+- `cypress/pages/` (POM)
+- `cypress/fixtures/` (test data)
+- `cypress/support/commands.js` (custom commands)
 
-\## What this project demonstrates
-
-\- End-to-end UI automation with Cypress (JavaScript)
-
-\- Maintainable structure using:
-
-&nbsp; - Feature-based specs
-
-&nbsp; - Page Object Model (POM)
-
-&nbsp; - Fixtures for test data
-
-&nbsp; - Custom Cypress commands
-
-
-
-\## What the tests cover (high level)
-
-\- Login: positive + negative + session checks
-
-\- Inventory: sorting, navigation, state behaviour
-
-\- Cart: add/remove flows, badge count, totals
-
-\- Checkout: validation, overview math, completion
-
-\- Non-functional/UX checks: formatting, storage/url safety, stability checks
-
-
-
-Some tests are marked as \*\*EXPECTED BUG\*\* when they document known issues in the demo app.
-
-
-
-\## Run locally (quick)
-
-```bash
-
-git clone https://github.com/yltsmees/saucedemo-cypress-portfolio.git
-
-cd saucedemo-cypress-portfolio
-
-npm install
-
-
-
-\# GUI
-
-npm run cy:open
-
-
-
-\# Headless
-
-npm run cy:run
-
-
-
+## Run locally
+Follow the repo README for exact scripts. Typical flow:
+1) Clone repo
+2) `npm install`
+3) Run Cypress in headed or headless mode
