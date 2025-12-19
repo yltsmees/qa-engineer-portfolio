@@ -34,7 +34,6 @@ qa-engineer-portfolio/
   README.md
   Manual/
     README.md
-    (your manual testing files)
   Automation/
     README.md
     UI/
